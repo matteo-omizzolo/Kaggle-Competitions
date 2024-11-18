@@ -77,4 +77,5 @@ The model shows strong performance with a high accuracy of 95.25%. It performs p
 5. Consider ensemble methods for improved performance
 
 ## Author
-Giacomo Negri
+Matteo Omizzolo
+
