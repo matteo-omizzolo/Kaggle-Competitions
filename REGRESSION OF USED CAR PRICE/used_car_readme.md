@@ -13,17 +13,17 @@ This project focuses on predicting the prices of used cars using machine learnin
 ### Target Variable:
 - **`price`**: Continuous variable representing the price of the used car.
 
-### Evaluation Metric:
+### Evaluation Metric
 The competition uses **Root Mean Squared Error (RMSE)** as the evaluation metric, defined as:
 
-\\[
-RMSE = \\sqrt{\\frac{1}{N} \\sum_{i=1}^{N} \\left( y_i - \\hat{y}_i \\right)^2 }
-\\]
+**RMSE Formula**:
 
-where:
-- \\( y_i \\): Actual value
-- \\( \\hat{y}_i \\): Predicted value
-- \\( N \\): Number of samples
+![RMSE Formula](https://latex.codecogs.com/svg.latex?RMSE%20%3D%20%5Csqrt%7B%5Cfrac%7B1%7D%7BN%7D%20%5Csum_%7Bi%3D1%7D%5EN%20%5Cleft%28%20y_i%20-%20%5Chat%7By%7D_i%20%5Cright%29%5E2%20%7D)
+
+Where:
+- \( y_i \): Actual value
+- \( \hat{y}_i \): Predicted value
+- \( N \): Number of samples
 
 ---
 
